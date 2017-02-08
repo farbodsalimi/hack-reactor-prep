@@ -1,16 +1,16 @@
 function countAllCharacters(str) {
     var dict = {};
-  if (str !== "") {
-    var arr = str.slice();
-    for(var i = 0; i < arr.length; i++) {
-      if (typeof dict[arr[i]] != "undefined") {
-        dict[arr[i]] += 1;
-      }else {
-        dict[arr[i]] = 1;
-      }
+    if (str !== "") {
+        var arr = str.slice();
+        for (var i = 0; i < arr.length; i++) {
+            if (typeof dict[arr[i]] != "undefined") {
+                dict[arr[i]] += 1;
+            } else {
+                dict[arr[i]] = 1;
+            }
+        }
     }
-  }
-  return dict;
+    return dict;
 }
 
 var output = countAllCharacters('banana');
