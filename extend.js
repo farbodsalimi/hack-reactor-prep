@@ -3,7 +3,6 @@ function extend(obj1, obj2) {
         if (typeof obj1[attrname] == "undefined") {
             obj1[attrname] = obj2[attrname];
         }
-
     }
 }
 
