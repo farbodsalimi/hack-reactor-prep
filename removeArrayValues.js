@@ -4,7 +4,6 @@ function removeArrayValues(obj) {
       delete obj[prop];
     }
   }
-  
   return obj;
 }
 
