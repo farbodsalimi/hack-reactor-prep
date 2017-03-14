@@ -22,5 +22,6 @@ function assertEqual(actual, expected, testName) {
   }
 }
 
+
 console.log(assertEqual(average([1,2,3]), 2, 'not equal'));
 console.log(assertEqual(sum([1,2,3]), 7, 'not equal'));
