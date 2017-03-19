@@ -10,7 +10,6 @@ function assertEqual(actual, expected, testName) {
   }
 }
 
-
 assertEqual(square(3), 9, 'squares a number');
 assertEqual(square(-3), 9, 'squares a negative');
 assertEqual(square(1), 1, 'squares one');
