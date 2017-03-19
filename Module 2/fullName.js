@@ -13,6 +13,7 @@ function assertObjectsEqual(actual, expected, testName) {
   // your code here
 }
 
+
 var fullname = addFullNameProp({
   firstName: 'Farbod',
   lastName: 'Salimi'
