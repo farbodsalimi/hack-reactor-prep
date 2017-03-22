@@ -1,5 +1,5 @@
 function filterEvenElements(arr) {
-  var filteredAry = arr.filter(function(e) { return e % 2 === 0 })
+  var filteredAry = arr.filter(function(e) { return e % 2 === 0; });
   return filteredAry;
 }
 
