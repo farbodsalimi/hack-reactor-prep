@@ -29,4 +29,5 @@ function sortAscendingByLength(a, b) {
   return 0;
 }
 
+
 console.log(findLongestPalindrome('Anna Civic Kayak Level Madam Mom Noon Racecar'));
