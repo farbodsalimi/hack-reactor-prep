@@ -9,6 +9,7 @@ var output = flipPairs(input);
 console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si 't sniasenyli tnreseitgn!
 */
 
+
 function flipPairs(input) {
   var result = '';
   var input_arr = input.split('');
