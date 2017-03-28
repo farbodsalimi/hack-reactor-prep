@@ -1,3 +1,5 @@
+// prepration summery
+
 // Math
 Math.PI;
 Math.pow(num, exponent);
@@ -12,6 +14,15 @@ Object.keys(obj)
 
 // assertObjectsEqual
 JSON.stringify(actual) === JSON.stringify(expected)
+
+// findSmallestElement
+Math.min.apply(Math, arr);
+Math.max.apply(Math, arr);
+Math.max(...arr)
+
+//
+Array.isArray();
+Number.isInteger();
 
 // typeof
 typeof variable !== "undefined"
@@ -53,15 +64,6 @@ arr.forEach(function (each){
 
 //
 str.split(char)
-
-// findSmallestElement
-Math.min.apply(Math, arr);
-Math.max.apply(Math, arr);
-Math.max(...arr)
-
-//
-Array.isArray();
-Number.isInteger();
 
 //getAllElementsButFirst and last
 // return a part of the array
