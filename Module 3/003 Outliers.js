@@ -21,6 +21,7 @@ function detectOutlierValue(str) {
   return parseInt(removable) + 1;
 }
 
+
 var output1 = detectOutlierValue("2 4 7 8 10"); // => 3 - Third number is odd, while the rest of the numbers are even
 var output2 = detectOutlierValue("1 10 1 1");  //=> 2 - Second number is even, while the rest of the numbers are odd
 
