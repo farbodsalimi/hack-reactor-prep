@@ -10,10 +10,11 @@ Math.floor(num);
 Math.abs(num);
 
 // Object
-Object.keys(obj)
+Object.keys(obj);
+Object.assign({}, obj, {name: 'update'});
 
 // assertObjectsEqual
-JSON.stringify(actual) === JSON.stringify(expected)
+JSON.stringify(actual) === JSON.stringify(expected);
 
 // findSmallestElement
 Math.min.apply(Math, arr);
@@ -23,6 +24,9 @@ Math.max(...arr)
 //
 Array.isArray();
 Number.isInteger();
+
+var a = [1,2,3];
+var b = a.concat(3);
 
 // typeof
 typeof variable !== "undefined"
@@ -89,3 +93,10 @@ delete prop['x']
 arr.map(function(x){
   return Math.pow(x,2);
 });
+
+// return barnd new object
+Object.assign
+arr.concat
+arr.filter
+arr.map
+arr.reduce
