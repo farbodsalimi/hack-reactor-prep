@@ -1,6 +1,5 @@
 function joinArrayOfArrays(arr) {
-  var result = [].concat.apply([], arr);
-  return result;
+  return [].concat.apply([], arr);
 }
 
 var output = joinArrayOfArrays([[1, 4], [true, false], ['x', 'y']]);
