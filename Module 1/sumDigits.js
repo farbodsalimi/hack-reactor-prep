@@ -1,13 +1,13 @@
 function sumDigits(num) {
-  var strnum = num.toString();
+  let strnum = num.toString();
   sum = 0;
   var i = 0;
-  while(i < strnum.length){
-    if (strnum[i] != '-'){
+  while (i < strnum.length) {
+    if (strnum[i] != '-') {
       sum += parseInt(strnum[i]);
       i++
-    }else {
-      sum += parseInt(strnum[i+1]) * -1;
+    } else {
+      sum -= parseInt(strnum[i+1]);
       i+=2;
     }
   }
