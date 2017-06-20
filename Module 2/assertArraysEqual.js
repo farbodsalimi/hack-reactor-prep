@@ -1,13 +1,18 @@
-function assertArraysEqual(actual, expected, testName) {
-  if (JSON.stringify(actual) === JSON.stringify(expected)) {
-    return 'passed';
-  }else {
-    return 'FAILED [' + testName + '] Expected "' + expected + '", but got "' + actual + '"';
+function arrayToString(array) {
+  let convertedArrayToString = '';
+  for (let i = 0; i < array.length; i++) {
+    return convertedArrayToString += array[i];
   }
 }
 
-var expected = ['b', 'r', 'o', 'k', 'e', 'n'];
-var actual = 'broken'.split('');
+function assertArraysEqual(actual, expected, testName) {
+  if (arrayToString(actual) === arrayToString(expected)) {
+    return console.log('passed');
+  } else {
+    return console.log(`FAILED [${testName}] Expected ${expected}, but got ${actual}`);
+  }
+}
+
+let expected = ['b', 'r', 'o', 'k', 'e', 'n'];
+let actual = 'broken'.split('');
 assertArraysEqual(actual, expected, 'splits string into array of characters');
-// console output:
-// passed
