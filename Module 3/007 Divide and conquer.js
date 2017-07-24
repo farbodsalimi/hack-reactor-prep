@@ -33,7 +33,7 @@ function BinarySearch(values, target, start, end) {
   var midpoint = values[midpoint_index];
 
   if (target === midpoint) {
-    return midpoint;
+    return midpoint_index;
   }else if (target > midpoint) {
     return BinarySearch(values, target, midpoint_index + 1, end);
   }else {
