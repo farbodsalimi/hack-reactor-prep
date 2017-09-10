@@ -22,13 +22,7 @@ function transposeTwoStrings(arr) {
 
   result = [];
   for (var i = 0; i < size; i++) {
-    var element1 = ' ';
-    var element2 = ' ';
-
-    if (typeof arr[0][i] !== 'undefined') element1 = arr[0][i];
-    if (typeof arr[1][i] !== 'undefined') element2 = arr[1][i];
-
-    console.log(element1 + ' ' + element2);
+    console.log((arr[0][i]||' ') + ' ' + (arr[1][i]||' '));
   }
 }
 
